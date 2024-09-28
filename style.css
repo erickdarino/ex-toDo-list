@@ -1,0 +1,107 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+body{
+    background-color: #e9ce9f;
+}
+.container{
+    margin: 100px auto;
+    width: 600px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.container2{
+    width: 100%;
+    text-align: center;
+    background-color: #fff;
+    border-top: 1px solid #865f1c;
+    border-radius:0px 0px 15px 15px ;
+    
+}
+header{
+    width: 600px;
+    height:80px;
+    padding: 8px;
+    background-color: #865f1c;
+    text-align: center;
+    border-radius: 15px 15px 0px 0px;
+}
+header h1 {
+    font-size: 50px;
+    font-style: italic;
+    color: white;
+    text-shadow:2px 2px 2px   #362f22 ;
+    text-transform: uppercase;
+}
+form{
+    width: 600px;
+    background-color: #fff;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    height: 80px;
+    border-bottom: 1px solid #865f1c;
+}
+input{
+    outline-color:#865f1c;
+    border-color: #362f22;
+    color:#362f22;
+    font-weight: bold;
+    width: 200px;
+    padding: 8px;
+    height: 30px;
+    border-radius: 5px;
+}
+#adicionar{
+    border-color:rgb(85, 255, 85);
+    cursor: pointer;
+    margin-left: 15px;
+    border-radius: 50%;
+}
+button img{
+width: 30px;
+}
+ol{
+    text-align: center;
+    background-color: #fff;
+    width: 600px;
+}
+#cancelar{
+    cursor: pointer;
+    border-radius: 5px;
+    background-color: red;
+    border-style: none;
+    color: #ffffff;
+    font-weight: bold;
+    font-style: oblique;
+    font-size:18px;
+    padding: 0px 10px;
+    height: 30px;
+    border-top: #362f22;
+    margin:8px;
+    display: none;
+}
+#cancelar:hover{
+    box-shadow: 4px 4px 4px #865f1c,
+    -3px -3px 3px rgb(248, 235, 150);
+}
+li{
+    list-style-type: none;
+    font-size: 18px;
+    font-weight: bold;
+    padding: 2px;
+    color: #362f22;
+    margin: 5px auto;
+    cursor: pointer;
+    display: none;
+}
+li.lista-completa{
+    font-weight: lighter;
+    color: #865f1c;
+    font-style: italic;
+    text-decoration: line-through 2px red; 
+}
